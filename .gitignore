@@ -5,3 +5,6 @@ python/__pycache__/
 /cshape/Singleton/bin/Debug/netcoreapp2.1
 /cshape/Singleton/obj/Debug/netcoreapp2.1
 /cshape/Singleton/obj
+/cshape/DependencyInversion/bin/Release/netcoreapp2.1
+/cshape/DependencyInversion/Properties/PublishProfiles
+/cshape/DependencyInversion/DependencyInversion.csproj.user
