@@ -1,5 +1,5 @@
 
-
+# metaclass is inherited from type
 class MySingletonMeta(type):
     _instances = {}
 
