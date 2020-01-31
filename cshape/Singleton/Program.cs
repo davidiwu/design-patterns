@@ -6,9 +6,9 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
-            SingletonStatic ss = SingletonStatic.Instance;
+            SingletonLazy ss = SingletonLazy.Instance;
 
-            var ss2 = SingletonStatic.Instance;
+            var ss2 = SingletonLazy.Instance;
 
             Console.WriteLine(ss);
             Console.WriteLine(ss2);
