@@ -8,3 +8,4 @@ python/__pycache__/
 /cshape/DependencyInversion/bin/Release/netcoreapp2.1
 /cshape/DependencyInversion/Properties/PublishProfiles
 /cshape/DependencyInversion/DependencyInversion.csproj.user
+python/plugins/__pycache__/
