@@ -9,3 +9,6 @@ python/__pycache__/
 /cshape/DependencyInversion/Properties/PublishProfiles
 /cshape/DependencyInversion/DependencyInversion.csproj.user
 python/plugins/__pycache__/
+/cshape/.vs/config/applicationhost.config
+/cshape/MVCDemo/bin/Debug/netcoreapp2.1
+/cshape/MVCDemo/obj

@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewData["Title"] = "Bootstrap";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Bootstrap Demos</h2>
+
+<div class="alert alert-success" role="alert">
+    <button type="button" class="close" data-dismiss="alert">x</button>
+    The Server is currently down for maintenance.
+</div>
+<br />
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>David</td>
+                    <td>Wu</td>
+                    <td class="text-primary">david@company.com</td>
+                </tr>
+                <tr>
+                    <td>Jim</td>
+                    <td>Fellon</td>
+                    <td class="danger">jim@company.com</td>
+                </tr>
+                <tr class="success">
+                    <td>Nick</td>
+                    <td>Cox</td>
+                    <td>nick@company.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<br />
+<div class="row">
+    <div class="row-md-12">
+        <blockquote>
+            <p>Best way to learn Bootstrap is to practice.</p>
+            <footer>David Wu</footer>
+        </blockquote>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        There are five breakpoints to which the bootstrap responds to:
+        <ul>
+            <li>xs: (max-width: 575.98px)</li>
+            <li>sm: (min-width: 576px) and (max-width: 767.98px)</li>
+            <li>md: (min-width: 768px) and (max-width: 991.98px)</li>
+            <li>lg: (min-width: 992px) and (max-width: 1199.98px)</li>
+            <li>xl: (min-width: 1200px)</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        Bootstrap column classes indicate the number of columns you’d like to use out of the <b>possible 12 per row</b>.
+        So, if you want three equal-width columns across, you can use .col-4.
+    </div>
+    <div class="col-md-4">
+        Grid breakpoints are based on minimum width media queries, meaning they apply to that one breakpoint and all those above it
+        (e.g., .col-sm-4 applies to small, medium, large, and extra large devices, but not the first xs breakpoint).
+    </div>
+
+</div>
+<br />
+<div class="row">
+    <div class="col-md-12">
+        <ul class="nav navbar-nav">
+            <li><a class="btn btn-danger btn-lg" href="/Home/Index">Home</a></li>
+            <li><a class="btn btn-default btn-sm" href="/Home/About">About</a></li>
+            <li><a class="btn btn-warning" href="/Home/Contact">Contact</a></li>
+            <li><a class="btn btn-info" href="/Home/Bootstrap">Bootstrap</a></li>
+        </ul>
+
+        <button class="btn btn-success btn-lg pull-right visible-lg">Large Layout</button>
+        <button class="btn btn-warning btn-lg pull-right visible-md">Midium Layout</button>
+        <button class="btn btn-danger btn-lg pull-right visible-sm">Small Layout</button>
+        <button class="btn btn-default btn-lg pull-right visible-xs">Extra Small Layout</button>
+    </div>
+</div>
