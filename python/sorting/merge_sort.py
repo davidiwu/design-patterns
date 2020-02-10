@@ -30,6 +30,9 @@ def _merge(arr1, arr2):
 
 def merge_sort(arr):
 
+    if type(arr) != list:
+        raise TypeError('Should provide a list for sorting')
+
     if len(arr) < 2:
         return arr
     
