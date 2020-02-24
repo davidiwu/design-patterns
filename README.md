@@ -1,9 +1,9 @@
 # About this repo:
 * concepts and implementations of common design patterns
-* written in both Python and C# languagea
+* written in both Python and C# language
 * always keeps code DIY and SOLID
 
-# SOLID principle
+# SOLID principles
 1. **单一职责原则(Single Responsibility Principle, SRP)**
 
     一个对象应该只包含单一的职责，并且该职责被完整地封装在一个类中 
