@@ -1,7 +1,7 @@
 # About this repo:
 * concepts and implementations of common design patterns
 * written in both Python and C# language
-* always keeps code DIY and SOLID
+* always keeps code DRY and SOLID
 
 # SOLID principles
 1. **单一职责原则(Single Responsibility Principle, SRP)**
